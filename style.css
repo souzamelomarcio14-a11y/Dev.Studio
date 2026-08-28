@@ -25,15 +25,24 @@ body {
     margin: 20px 30px 20px 30px;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: rgba(11, 15, 23, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-line);
+  z-index: 1000;
 }
-
-.menu  {
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    
+.navbar nav a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 0.95rem;
+  transition: color 0.3s;
 }
