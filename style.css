@@ -7,11 +7,15 @@
   --text-primary: #ffffff;
   --text-secondary: #94a3b8;
   --border-line: rgba(255, 255, 255, 0.08);
-
+}
 * {
   padding: 0px;
   margin: 0px;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--bg-main);
 }
 
 header {
@@ -20,6 +24,7 @@ header {
   align-items: center;
   background-color: var(--bg-main);
   padding: 25px 90px;
+  border-bottom: 1px solid var(--border-line);
 }
 
 .logo {
@@ -34,10 +39,32 @@ header {
 }
 
 
+
 .menu {
-  display: block;
-  text-decoration: none;
-  color: white;
-  gap: 40px;
+  gap: 30px;
+  display: flex;
+  align-items: center;
   
 }
+
+
+.menu a{
+  
+  text-decoration: none;
+  color: var(--text-secondary);
+  transition: 0.7s;  
+}
+
+.btn_azul {
+  background-color: var(--accent-blue);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #0c0c0c;
+
+}
+
+.menu a:hover {
+  color: var(--accent-cyan);
+
+}
+
