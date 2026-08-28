@@ -1,0 +1,39 @@
+:root {
+    /* Paleta de cores */
+:root {
+  --bg-main: #0b0f17;
+  --bg-card: #131b2e;
+  --bg-card-hover: #1c2744;
+  --accent-cyan: #00f2fe;
+  --accent-blue: #4facfe;
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --border-line: rgba(255, 255, 255, 0.08);
+}
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+}
+
+body {
+    margin: 20px 30px 20px 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu  {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+}
