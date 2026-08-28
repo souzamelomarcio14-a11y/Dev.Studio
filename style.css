@@ -73,6 +73,14 @@ header {
   text-align: center;
   padding: 100px;
   background: linear-gradient(to right, transparent 0%, #00f1fe0a 30%, transparent 100%);
+  max-width: 640px;
+  margin: 0 auto;
+  
+}
+
+.superior h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .superior h3 {
@@ -87,3 +95,52 @@ header {
   margin-bottom: 20px;
 }
 
+.superior p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+
+}
+
+.superior span {
+
+  color: var(--accent-blue);
+}
+
+.bto_orcamento {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.bto_orcamento a {
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.bto_orcamento #bazul {
+  background-color: #00f2fe;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.bto_orcamento #bbranco {
+  border: 1px solid var(--border-line);
+  padding: 17px;
+  border-radius: 10px;
+  color: white;
+  transition: 0.3s;
+}
+
+.bto_orcamento #bazul:hover {
+  transform: translateY(-5px);
+}
+
+.bto_orcamento #bbranco:hover {
+  border: 1px solid var(--accent-cyan);
+}
