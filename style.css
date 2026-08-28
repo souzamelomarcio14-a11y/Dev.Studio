@@ -146,3 +146,22 @@ header {
 .bto_orcamento #bbranco:hover {
   border: 1px solid var(--accent-cyan);
 }
+
+.ecossistema_geral {
+  color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  
+}
+
+.fases {
+  display: flex;
+  gap: 20px;
+}
+
+.fase {
+  background-color: var(--bg-card);
+  padding: 30px;
+  border-radius: 20px;
+}
