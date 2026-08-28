@@ -152,28 +152,25 @@ header {
   max-width: 1000px;
   margin: 0 auto;
   padding-top: 100px;
-
+}
   
 
-.ecossistema_geral, #entrega {
+.ecossistema_geral #entrega {
   color: var(--accent-cyan);
   font-size: 15px;
   padding-bottom: 30px;
 }
 
-.ecossistema_geral, #eco {
+.ecossistema_geral #eco {
   padding-bottom: 50px;
 }
 
 .fase h3 {
-  font-size: 1px;
+  font-size: 13px;
   color: var(--accent-cyan);
   padding-bottom: 20px;
 }
   
-  
-}
-
 .fases {
   display: flex;
   gap: 20px;
@@ -183,4 +180,5 @@ header {
   background-color: var(--bg-card);
   padding: 30px;
   border-radius: 20px;
+  border: 1px solid var(--border-line);
 }
