@@ -23,8 +23,12 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: var(--bg-main);
-  padding: 25px 90px;
+  padding: 10px 90px;
   border-bottom: 1px solid var(--border-line);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 .logo {
