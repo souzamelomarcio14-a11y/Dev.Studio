@@ -46,3 +46,12 @@ body {
   font-size: 0.95rem;
   transition: color 0.3s;
 }
+
+.btn-glow {
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+  color: #000 !important;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
