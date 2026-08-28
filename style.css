@@ -55,13 +55,15 @@ header {
   transition: 0.7s;  
 }
 
-.btn_azul {
+.menu #btn_azul {
   background-color: var(--accent-blue);
   padding: 10px 20px;
   border-radius: 10px;
-  color: #0c0c0c;
+  color: #000000;
 
 }
+
+
 
 .menu a:hover {
   color: var(--accent-cyan);
