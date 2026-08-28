@@ -79,8 +79,11 @@ header {
   color: var(--accent-cyan);
   font-size: 14px;
   font-weight: 200;
-  border: 1px solid var(--accent-cyan);
+  border: 1px solid var(--border-line);
+  background-color: var(--border-line);
   display: inline-block;
   padding: 10px;
+  border-radius: 25px;
+  margin-bottom: 20px;
 }
 
