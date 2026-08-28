@@ -151,6 +151,25 @@ header {
   color: white;
   max-width: 1000px;
   margin: 0 auto;
+  padding-top: 100px;
+
+  
+
+.ecossistema_geral, #entrega {
+  color: var(--accent-cyan);
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.ecossistema_geral, #eco {
+  padding-bottom: 50px;
+}
+
+.fase h3 {
+  font-size: 1px;
+  color: var(--accent-cyan);
+  padding-bottom: 20px;
+}
   
   
 }
