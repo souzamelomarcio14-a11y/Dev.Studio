@@ -1,6 +1,4 @@
 :root {
-    /* Paleta de cores */
-:root {
   --bg-main: #0b0f17;
   --bg-card: #131b2e;
   --bg-card-hover: #1c2744;
@@ -9,49 +7,37 @@
   --text-primary: #ffffff;
   --text-secondary: #94a3b8;
   --border-line: rgba(255, 255, 255, 0.08);
-}
-
-}
-
 
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-body {
-    margin: 20px 30px 20px 30px;
-}
-
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 8%;
-  background: rgba(11, 15, 23, 0.8);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border-line);
-  z-index: 1000;
-}
-.navbar nav a {
-  color: var(--text-secondary);
-  text-decoration: none;
-  margin-left: 25px;
-  font-size: 0.95rem;
-  transition: color 0.3s;
+  background-color: var(--bg-main);
+  padding: 25px 90px;
 }
 
-.btn-glow {
-  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
-  color: #000 !important;
-  font-weight: 700;
-  padding: 10px 20px;
-  border-radius: 6px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+.logo {
+  color: white;
+  font-size: 12px;
+
+}
+
+.logo_azul {
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
+
+.menu {
+  display: block;
+  text-decoration: none;
+  color: white;
+  gap: 40px;
+  
 }
