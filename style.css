@@ -16,6 +16,7 @@
 
 body {
   background-color: var(--bg-main);
+  
 }
 
 header {
@@ -29,7 +30,10 @@ header {
   left: 0;
   right: 0;
   z-index: 1000;
+
 }
+
+
 
 .logo {
   color: white;
@@ -74,13 +78,18 @@ header {
 
 }
 
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
 .superior {
   color: white;
   text-align: center;
   padding: 100px;
   background: linear-gradient(to right, transparent 0%, #00f1fe0a 30%, transparent 100%);
-  max-width: 640px;
-  margin: 0 auto;
+  
   
 }
 
@@ -154,8 +163,9 @@ header {
 .ecossistema_geral {
   color: white;
   max-width: 1000px;
-  margin: 0 auto;
   padding-top: 100px;
+  margin: 20px;
+  
 }
   
 
@@ -185,4 +195,59 @@ header {
   padding: 30px;
   border-radius: 20px;
   border: 1px solid var(--border-line);
+}
+
+.fase h1 {
+  padding-bottom: 20px;
+}
+
+@media (max-width:950px) {
+  header {
+    margin: 0px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu {
+    font-size: 12px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .menu #btn_azul {
+    padding: 10px 10px;
+    width: 100px;
+  }
+
+   .superior {
+
+    padding-top: 180px;
+    
+
+  }
+
+  .superior h2 {
+    font-size: 35px;
+  }
+
+  .fases {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+}
+
+
+@media (max-width: 768px) {
+  
+  header {
+    margin: 0;
+    flex-direction: column;
+  }
+
+
+
+
+
 }
