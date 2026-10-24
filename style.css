@@ -10,12 +10,13 @@
 
 body {
 
+    font-family: "Inter", sans-serif;
+
 
 }
 
 
 header {
-
      display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,8 +32,7 @@ header {
 
     background-color: rgba(255, 255, 255, 0.881);
     backdrop-filter: blur(5px);
-    border-bottom: 1px solid rgba(137, 137, 137, 0.196);
-   
+    border-bottom: 1px solid rgba(137, 137, 137, 0.196);   
 }
 
 
@@ -41,7 +41,6 @@ header {
     font-family: "JetBrains Mono", monospace;
     font-size: 25px;
     font-weight: 700;
-
 }
 
 .cabecalho .logo_1 {
@@ -57,7 +56,6 @@ header {
     gap: 30px;
     display: flex;
     align-items: center;
-    font-family: "Inter", sans-serif;
     font-weight: 500;
 }
 
@@ -81,15 +79,227 @@ nav .bto_azul a {
     color: white;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0px 1px 5px rgb(11, 49, 173);
 }
 
 nav .bto_azul a:hover {
     color: white;
-    background-color: rgb(56, 136, 227);
+    background-color: rgb(4, 84, 175);
     transition: 0.5s;
 }
 
 main {
-    padding-top: 75px;
+ width: 1200px;
+ max-width: 100%;
+ margin: 0 auto;
+ margin-top: 200px;
+  
 }
+
+.principal_sup {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+   
+}
+
+.principal_esquerda {
+    flex: 1.3;
+    min-width: 0;
+    
+}
+
+.principal_esquerda h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.principal_esquerda .h1_ex {
+   background: linear-gradient(90deg, #14348b, #3f60ca);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+ .principal_esquerda p {
+    font-size: 20px;
+    color: rgb(99, 98, 98);
+    padding-top: 20px;
+ }
+
+.bto_1_2 {
+    margin-top: 40px;
+}
+ 
+
+.bto_1 {
+    background-color: rgb(20, 113, 219);
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.bto_2 {
+    color: black;
+    border: 1px solid rgb(177, 176, 176);
+    padding: 13px;
+    border-radius: 10px;
+}
+
+
+
+.principal_direita {
+    flex: 1;
+    box-sizing: border-box;
+    min-width: 0;
+    background-color: rgb(32, 32, 32);
+    color: rgb(72, 133, 189);
+    border-radius: 20px;
+    padding: 20px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 100;
+    line-height: 2.5;
+
+
+}
+
+.principal_direita .conecta_js {
+    color: rgb(131, 130, 131);
+    border-bottom: 0.5px solid rgb(107, 107, 107);
+    font-size: 12px;
+    text-align: right;
+}
+
+.principal_direita .const_rosa {
+    color: rgb(137, 9, 141);
+}
+
+.principal_direita .text_white {
+    color: white;
+}
+
+.principal_direita .text_marrom {
+    color: rgba(167, 135, 66, 0.973);
+}
+
+.principal_direita .text_verde {
+    color: rgba(37, 155, 13, 0.973);
+}
+
+.principal_direita .text_yellow {
+    color: rgba(174, 187, 53, 0.973);
+}
+
+.sobre_principal {
+    padding-top: 100px;
+    
+}
+
+.sobre_sup {
+    padding: 100px 0px 50px 0px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+.sobre_sup h2 {
+    font-size: 2.5em;
+    color: rgb(27, 27, 27);
+}
+
+.sobre_sup p {
+    color: rgb(99, 98, 98);
+    font-size: 1.2em;
+    padding-top: 20px;
+  
+}
+
+.sobre {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+
+.sobre_esquerdo {
+    flex: 1;
+}
+
+.sobre_esquerdo h2 {
+    padding-bottom: 15px;
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+}
+
+.sobre_esquerdo p {
+    padding-bottom: 20px;
+    color: rgb(99, 98, 98);
+}
+
+.sobre_direito {
+    flex: 1;
+}
+
+.display_1 {
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid rgba(92, 91, 91, 0.196);
+    border-radius: 10px;
+    background-color: #0408f00e;
+}
+
+.display_1 img {
+    width: 30px;
+    
+
+}
+
+.display_1 h2 {
+    color: rgb(27, 27, 27);
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+
+.display_1 p {
+    color: rgb(99, 98, 98);
+    font-size: 15px;
+}
+
+.section_habilidade {
+    text-align: center;
+    padding: 70px 0px 50px 0px;
+
+}
+
+.section_habilidade h2 {
+    font-size: 2.5em;
+    color: rgb(27, 27, 27);
+}
+
+.section_habilidade p {
+color: rgb(99, 98, 98);
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid rgba(92, 91, 91, 0.196);
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #0408f00e;
+}
+
 
